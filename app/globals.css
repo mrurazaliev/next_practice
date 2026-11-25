@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #0E0D0B;    
+  --color-panel: #1A1814;   
+  --color-line: #2E2A23;   
+  --color-cream: #F3ECDD;  
+  --color-muted: #A89F8E;   
+  --color-gold: #E4C990;   
+
+  --font-serif: var(--font-bodoni);
+  --font-sans: var(--font-manrope);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink text-cream font-sans antialiased;
+}
